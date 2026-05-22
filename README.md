@@ -1,10 +1,4 @@
-md46-rgb/
-├── README.md
-├── assets/
-│   └── banner.svg
-└── .github/
-    └── workflows/
-        └── snake.yml<div align="center">
+<div align="center">
 
 <img width="100%" src="./assets/banner.svg">
 
@@ -89,41 +83,3 @@ Building projects • Learning continuously • Exploring AI
 ⭐ Thanks for visiting
 
 </div>
-<svg fill="none" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
-<rect width="1000" height="220" fill="#0d1117"/>
-<circle cx="150" cy="60" r="100" fill="#00F7FF" opacity=".15"/>
-<circle cx="850" cy="170" r="140" fill="#8A2BE2" opacity=".15"/>
-<text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle"
-font-size="42" fill="#00F7FF" font-family="monospace">
-md46-rgb
-</text>
-<text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle"
-font-size="18" fill="white" font-family="monospace">
-AI • Python • Machine Learning
-</text>
-</svg>
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: md46-rgb
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
