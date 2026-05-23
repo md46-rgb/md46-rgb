@@ -128,7 +128,7 @@ if __name__ == "__main__":
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=md46-rgb&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=FF00FF&text_color=FFFFFF&ring_color=00F7FF&include_all_commits=true&count_private=true&rank_icon=github" width="430"/>
+      <img src="https://github-readme-stats-salesp07.vercel.app/api?username=md46-rgb&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=FF00FF&text_color=FFFFFF&ring_color=00F7FF&include_all_commits=true&count_private=true&rank_icon=github" width="430"/>
     </td>
     <td>
       <img src="https://streak-stats.demolab.com?user=md46-rgb&theme=transparent&hide_border=true&background=0D1117&ring=00F7FF&fire=FF00FF&currStreakLabel=00F7FF&sideLabels=FFFFFF&dates=888888&sideNums=FFFFFF&currStreakNum=FFFFFF" width="430"/>
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=md46-rgb&layout=donut-vertical&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF&langs_count=8" width="300"/>
+<img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=md46-rgb&layout=donut-vertical&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF&langs_count=8" width="300"/>
 
 </div>
 
